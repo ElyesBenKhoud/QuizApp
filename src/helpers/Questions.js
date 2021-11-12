@@ -1,11 +1,11 @@
 export const Questions = [
   {
-    prompt: "What is my name?",
-    optionA: "John",
-    optionB: "Jake",
-    optionC: "Josh",
-    optionD: "Pedro",
-    asnwer: "optionD",
+    prompt: "what is the biggest country in the world?",
+    optionA: "United State",
+    optionB: "United kingdom",
+    optionC: "Russia",
+    optionD: "China",
+    asnwer: "optionC",
   },
   {
     prompt: "Which of this is not a programming language?",

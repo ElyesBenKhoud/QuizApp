@@ -11,7 +11,7 @@ function Menu() {
       <label>Enter Your Name:</label>
       <input
         type="text"
-        placeholder="Ex. John Smith"
+        placeholder="Ex. Foulen ben felten"
         onChange={(event) => {
           setUserName(event.target.value);
         }}

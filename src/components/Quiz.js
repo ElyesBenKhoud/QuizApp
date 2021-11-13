@@ -8,10 +8,9 @@ import { GameStateContext } from "../helpers/Contexts";
 function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [optionChosen, setOptionChosen] = useState("");
-
-  const { score, setScore, gameState, setGameState } = useContext(
-    GameStateContext
-  );
+  const [color, setColor] = useState(true);
+  const { score, setScore, gameState, setGameState } =
+    useContext(GameStateContext);
 
   const chooseOption = (option) => {
     setOptionChosen(option);
